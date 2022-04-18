@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Layouts Grid</title>
+
+    <style>
+        .a{
+            background-color: bisque;
+        }
+        .b{
+            background-color: lightgray;
+        }
+        .c{
+            background-color: lightblue;
+        }
+        .d{
+            background-color: lightgreen;
+        }
+        .e{
+            background-color: lightpink;
+        }
+        .f{
+            background-color: lightyellow;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-gap: 5px;
+            background-color: burlywood;
+        }
+
+        .elemento{
+            font-size: 150%;
+            border-radius: 5px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="elemento a">a</div>
+        <div class="elemento b">b</div>
+        <div class="elemento c">c</div>
+        <div class="elemento d">d</div>
+        <div class="elemento e">e</div>
+        <div class="elemento f">f</div>
+    </div>
+
+</body>
+</html>
